@@ -78,6 +78,10 @@ body {
     text-transform: uppercase;
 }
 
+.menu__list-link--active{
+    color: #0066FF;
+}
+
 .footer {
     background-color: #151515;
     padding: 50px 0 32px;
