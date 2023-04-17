@@ -518,6 +518,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     padding: 0;
+    margin-bottom: 15px;
     border: none;
     background-color: transparent;
     cursor: pointer;
@@ -566,6 +567,10 @@ body {
 
 
 @media (max-width: 860px) {
+    .header__inner {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
     .menu__btn {
         display: flex;
     }
